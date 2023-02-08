@@ -54,8 +54,7 @@ const AdminProjectsFage = () => {
         <td with="150"><button class="btn btn-remove btn-danger" data-id="${project.id}">Remove</button>
         <a href="/admin/projects/${project.id}/edit">Sửa</a>
         </td>
-        
-      </tr>
+    </tr>
     `).join("")}
     
     </tbody>

@@ -1,7 +1,7 @@
 const ProjectInfo = ({ name, teams }) => {
     return `
     <h2>${name}</h2>
-    ${teams
+     ${teams
             ? `
         <h2>Teams</h2>
         <ul>
