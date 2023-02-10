@@ -28,7 +28,7 @@ const AdminEditProjects = ({ id }) => {
             router.navigate("/admin/projects");
         });
     });
-    if (!currentProject) return null;
+
 
     return `<div class="container">
             <h1>Cập nhật sản phẩm</h1>

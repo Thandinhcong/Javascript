@@ -18,7 +18,7 @@ const AdminProjectsFage = () => {
     const projects = JSON.parse(localStorage.getItem('projects')) || [];
     setData(projects);
     //truyền tham số thứ 2
-  }, [])
+  }, []);
   useEffect(() => {
     const btns = document.querySelectorAll(".btn-remove");
 
